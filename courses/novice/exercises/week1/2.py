@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 """
 題目:
 
@@ -7,3 +8,7 @@
 提示: 使用str.split或是strings slice notation
 """
 str1 = '  《五音集韻》說：「人死為鬼，人見懼之；鬼死為魙，鬼見怕之。」  '
+str2 = str1.replace(" ","")
+print str2
+str3 = str2[:39] + "A" + str2[-51:] 
+print str3

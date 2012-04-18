@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 題目:
 
@@ -8,3 +9,6 @@ u'\u4e2d'
 
 提示: 可以在print時使用 repr
 """
+str1 = raw_input("Please input:")
+str3 = str1.decode('utf-8')
+print repr(str3)
